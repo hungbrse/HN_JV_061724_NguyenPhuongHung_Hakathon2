@@ -1,0 +1,106 @@
+
+
+.moldal-project {
+  
+  width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.moldal-project  form {
+    
+    
+  border: none;
+  background-color: rgb(179, 43, 43);
+  top: 25%;
+  border-radius: 5px;
+  padding: 25px 25px;
+  width: 30%;
+}
+
+
+.moldal-project  form .moldal-title {
+
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+.moldal-project  form .moldal-title  p{
+    padding: 5px;
+
+   font-size: 25px;
+ }
+
+ 
+.moldal-project  form .moldal-title  p:hover{
+    cursor: pointer;
+  }
+ 
+
+ 
+.moldal-project  form .div-input  {
+    
+   gap: 5px;
+   display: flex;
+   flex-direction: column;
+    margin-top: 15px;
+}
+ 
+
+.moldal-project  form div  input{
+
+
+    width: 95%;
+    padding: 8px 0px;
+  }
+
+  
+.moldal-project  form div  input[type="file"]{
+
+    padding: 0px;
+
+    
+  }
+
+.moldal-project form  .form-btn {
+    float: right;
+  }
+
+  
+
+.moldal-project form  .form-btn  .add-btn{
+    background-color: #2563eb;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+
+
+.cancel-btn {
+    padding: 5px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+
+
+}
+/* DELETE_BTN */
+.delete-li {
+    text-align: center;
+}
+
+.delete-Btn {
+    color: #ff8a8b;
+    background-color: white;
+    border: 1px solid #ff8a8b;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* DELETE_BTN */
+
+

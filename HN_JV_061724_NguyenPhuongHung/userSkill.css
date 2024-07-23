@@ -1,0 +1,275 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+.header-class {
+    background-color: #dadada;
+
+}
+
+
+.header-class .header-class-profile{
+    padding: 10px 15px;
+    justify-content: right;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.header-class .header-class-profile img{
+
+    border-radius: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container  .dashboard-main  {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container  .dashboard-main .dashboard-link-background {
+    background-color: #041434;
+    height: 900px;
+}
+
+.main-container  .dashboard-main .dashboard-link {
+    background-color: #041434;
+    padding: 20px;
+    display: block;
+}
+
+
+.main-container  .dashboard-main .dashboard-link:hover {
+    background-color: #1e3155;
+   
+}
+
+
+.main-container  .table-show  { 
+    padding: 25px;
+    width: 80%;
+}
+
+
+.main-container  .table-data .table-data-title {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-container  .table-data .table-data-title  button{
+    color: white;
+    padding: 5px 10px;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+
+
+
+.main-container  .table-data .table-data-title  button:hover{
+  
+    cursor: pointer;
+}
+
+
+
+.main-container  .table-data .table-main  {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.main-container  .table-data .table-main  table th {
+
+  padding: 10px;
+}
+
+
+.main-container  .table-data .table-main  table td {
+
+    padding: 10px;
+  }
+
+ .moldal  {
+   
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+
+.moldal  form {
+
+
+    border: none;
+    background-color: white;
+    top: 25%;
+    position: fixed;
+    display: none;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 25px 25px;
+    width: 30%;
+
+    
+}
+
+
+.moldal  form .moldal-title {
+
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+.moldal  form .moldal-title  p{
+    padding: 5px;
+
+   font-size: 25px;
+ }
+
+ 
+.moldal  form .moldal-title  p:hover{
+    cursor: pointer;
+  }
+ 
+
+ 
+.moldal  form .div-input  {
+    
+   gap: 5px;
+   display: flex;
+   flex-direction: column;
+    margin-top: 15px;
+}
+ 
+
+.moldal  form div  input{
+
+
+    width: 95%;
+    padding: 8px 0px;
+  }
+
+  
+.moldal  form div  input[type="file"]{
+
+    padding: 0px;
+
+    
+  }
+
+.moldal form  .form-btn {
+    float: right;
+  }
+
+  
+
+.moldal form  .form-btn  .add-btn{
+    background-color: #2563eb;
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+.cancel-btn {
+    padding: 5px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+
+
+}
+/* DELETE_BTN */
+.delete-li {
+    text-align: center;
+}
+
+.delete-Btn {
+    color: #ff8a8b;
+    background-color: white;
+    border: 1px solid #ff8a8b;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* DELETE_BTN */
+
+
+/* TABLE-DATA-PROJECT */
+
+
+.main-container .table-data-project {
+    display: none;
+}
+
+
+.main-container  .table-data-project .table-data-title  {
+   display: flex;
+   justify-content: space-between;
+
+    
+}
+
+.main-container  .table-data-project .table-data-title  button{
+    color: white;
+    padding: 5px 10px;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+
+
+
+.main-container  .table-data-project .table-data-title  button:hover{
+  
+    cursor: pointer;
+}
+
+
+
+.main-container  .table-data-project .table-main-project  {
+
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.main-container  .table-data-project .table-main-project  table th {
+
+  padding: 10px;
+}
+
+
+.main-container  .table-data-project .table-main-project  table td {
+
+    padding: 10px;
+  }

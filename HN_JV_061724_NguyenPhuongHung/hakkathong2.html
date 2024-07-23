@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="userSkill.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+    <div class="header-class">
+      <div class="header-class-profile">
+        <p>Nguyễn Văn Mều</p>
+        <img
+          width="50px"
+          height="50px"
+          src="./dd700891c13ba81709a7e48f184879dc.jpg"
+          alt=""
+        />
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="dashboard-main">
+        <div class="dashboard-link-background">
+          <a
+            id="skillDashboard"
+            class="dashboard-link"
+            href="javascript:void(0)"
+            >Kỹ Năng</a
+          >
+          <a
+            id="projectDashboard"
+            class="dashboard-link"
+            href="javascript:void(0)"
+            >Dự Án</a
+          >
+        </div>
+      </div>
+      <div class="table-show">
+        <div class="table-data">
+          <div class="table-data-title">
+            <h2>Kỹ Năng</h2>
+            <button class="add-item">THêm Mới Kỹ Năng</button>
+          </div>
+
+          <div class="table-main">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>STT</th>
+                  <th>Tên Kỹ Năng</th>
+                  <th>Hình Ảnh</th>
+                  <th>Năm Kinh Nghiệm</th>
+                  <th>Ngày THêm</th>
+                  <th>Chức Năng</th>
+                </tr>
+              </thead>
+              <tbody class="table-dataItem"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="table-data-project">
+          <div class="table-data-title">
+            <h2>Dự Án</h2>
+            <button class="add-project">Thêm Dự Án</button>
+          </div>
+
+          <div class="table-main-project">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>STT</th>
+                  <th>Tên Dự Án</th>
+                  <th>Hình Ảnh</th>
+                  <th>Công Nghệ</th>
+                  <th>Chức Năng</th>
+                </tr>
+              </thead>
+              <tbody class="table-dataItem-project"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="moldal">
+      <form action="" class="form-input">
+        <div class="moldal-title">
+          <h1>Thêm Kỹ Năng Mới</h1>
+          <p id="close-btn">x</p>
+        </div>
+
+        <div class="div-input">
+          <label for="">Tên Kỹ Năng</label>
+          <input type="text" id="InputName" />
+        </div>
+
+        <div class="div-input">
+          <label for="">Năm Kinh Nghiệm</label>
+          <input type="text" id="inputExperienceYear" />
+        </div>
+
+        <div class="div-input">
+          <label for="">Hình Ảnh</label>
+          <input
+            type="file"
+            id="inputImg"
+            onchange="encodeImageFileAsURL(this)"
+          />
+          <img
+            id="image-product"
+            width="100px"
+            height="100px"
+            src=""
+            alt=""
+            srcset=""
+          />
+        </div>
+
+        <div class="form-btn">
+          <button class="cancel-btn">Hủy</button>
+          <button class="add-btn" type="button">Thêm</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="moldal-project">
+      <form action="" class="project-form-input">
+        <div class="moldal-title">
+          <h1>Thêm mới dự án</h1>
+          <p id="close-project-btn">x</p>
+        </div>
+
+        <div class="div-input">
+          <label for="">Tên Dự Án</label>
+          <input type="text" id="projectName" />
+        </div>
+
+        <div class="div-input">
+          <label for="">Công Nghệ Sử Dụng</label>
+          <input type="text" id="technology" />
+        </div>
+
+        <div class="div-input">
+          <label for="">Link GitHub</label>
+          <input type="text" id="githubLink" />
+        </div>
+
+        <div class="div-input">
+          <label for="">Hình Ảnh</label>
+          <input
+            type="file"
+            id="inputImg"
+            onchange="encodeImageFileAsURL(this)"
+          />
+          <img
+            id="image-product"
+            width="100px"
+            height="100px"
+            src=""
+            alt=""
+            srcset=""
+          />
+        </div>
+
+        <div class="form-btn">
+          <button id="cancel-project-btn">Hủy</button>
+          <button id="add-project-btn" type="button">Thêm</button>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2724178c42.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
