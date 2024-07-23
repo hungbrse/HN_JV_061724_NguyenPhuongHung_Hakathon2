@@ -1,21 +1,22 @@
 
 
 .moldal-project {
-  
   width: 100%;
  display: flex;
  justify-content: center;
+
+ 
 }
 
 .moldal-project  form {
-    
-    
   border: none;
-  background-color: rgb(179, 43, 43);
-  top: 25%;
+  top: -600px;
   border-radius: 5px;
   padding: 25px 25px;
   width: 30%;
+  position: relative;
+  display: none;
+
 }
 
 
